@@ -1,11 +1,34 @@
-.banner {
+div.banner {
+  background-image: url('banner.jpg');
+  min-height: 500px;
+  margin: 13px 0px;
   text-align: center;
 }
 .banner-text {
   font-size: 200px;
+  color: gainsboro;
 }
 
 .welcome-text {
   text-align: center;
   font-size: 44px;
+}
+
+.nav.nav-pills {
+  color: #dda6ae;
+  justify-content: right;
+}
+
+.nav-link {
+  color: #dda6ae;
+  font-size: 18px;
+}
+
+ .nav-link:hover {
+  color: #a6dddd;
+}
+
+li.navbar-right {
+  float: right;
+  margin-right: 15px;
 }
